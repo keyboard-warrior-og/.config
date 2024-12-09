@@ -64,7 +64,7 @@ output * bg /home/oy/.config/back/1.jpg fill
     bindsym $mod+Return exec $term
 
     # Kill focused window
-    bindsym $mod+Shift+q kill
+    bindsym $mod+q kill
 
     # Start your launcher
     bindsym $mod+d exec $menu
@@ -224,5 +224,10 @@ bar {
         inactive_workspace #32323200 #32323200 #5c5c5c
     }
 }
+# custom
+default_border pixel 4
+gaps outer 4
+gaps inner 2
+client.focused #ffa200 #285577 #ffffff #0099ff #2200ff
+exec kitty
 
-include /etc/sway/config.d/*
