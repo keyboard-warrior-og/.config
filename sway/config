@@ -225,7 +225,7 @@ bar {
     }
 }
 # custom
-default_border pixel 4
+default_border none
 gaps outer 4
 gaps inner 2
 client.focused #ffa200 #285577 #ffffff #0099ff #2200ff
