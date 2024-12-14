@@ -230,4 +230,5 @@ gaps outer 4
 gaps inner 2
 client.focused #ffa200 #285577 #ffffff #0099ff #2200ff
 exec kitty
+input "type:touchpad" tap enabled
 
