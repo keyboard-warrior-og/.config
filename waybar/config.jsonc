@@ -13,7 +13,8 @@
     ],
     "modules-center": [
         "clock",
-	"sway/workspaces"
+	"sway/workspaces",
+	"custom/date"
     ],
     "modules-right": [
         "pulseaudio",
@@ -94,9 +95,8 @@
         "spacing": 10
     },
     "clock": {
-        // "timezone": "America/New_York",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+  	"format":"{:%I:%M}",
+	"format-alt":"{:%d-%m-%Y}"
     },
     "cpu": {
         "format": "{usage}% ",
