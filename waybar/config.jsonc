@@ -7,31 +7,18 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "sway/workspaces",
-        "sway/mode",
-        "sway/scratchpad",
-        "custom/media"
+	"memory",
+	"temperature",
+	"cpu"
     ],
     "modules-center": [
-        "sway/window"
+        "clock",
+	"sway/workspaces"
     ],
     "modules-right": [
-        "mpd",
-        "idle_inhibitor",
         "pulseaudio",
         "network",
-        "power-profiles-daemon",
-        "cpu",
-        "memory",
-        "temperature",
-        "backlight",
-        "keyboard-state",
-        "sway/language",
-        "battery",
-        "battery#bat2",
-        "clock",
-        "tray",
-        "custom/power"
+        "battery"
     ],
     // Modules configuration
     // "sway/workspaces": {
